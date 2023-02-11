@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Sign up form</title>
+    <style>
+        input:required{
+            border: 1px solid red;
+        }
+        input:optional{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Username:</label><br>
+            <input type="text" name="myName" placeholder="Enter your name" id="name" required>
+         </div><br>
+         <div>
+            <label for="password">Password:</label><br>
+            <input type="Password" name="myPassword" placeholder="Enter your password" id="password" required>
+        </div><br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="myEmail" placeholder="Enter your email" id="email" required>
+        </div><br>
+        <div>
+            <label for="telnumber">Phone Number:</label><br>
+            <input type="tel" name="myPhonenum" placeholder="Enter your number" id="telnumber">
+        </div><br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="Date" id="date">
+        </div><br>
+        <div>
+            <label for="agree">I agree to the TOS:</label>
+            <input type="checkbox" name="agreement" id="agree" required>
+        </div><br>
+        <input type="submit" value="Sign up" required>
+        
+    </form>
+</body>
+</html>
