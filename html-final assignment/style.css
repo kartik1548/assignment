@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+   background: rgba(51, 184, 91, 0.547);
+
+} 
+
+.navbar a img{
+    width: 70px;
+}
+
+.navbar{
+    /* background:linear-gradient(to top , rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9)); */
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color:black ;
+    /* text-transform: uppercase; */
+    padding: 10px 10px;
+}
+.navbar a b{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.navbar a b:hover{
+    box-shadow: inset 0px 0px 50px rgb(41, 142, 142);
+}
+
+.formdiv{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form,.login{
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+    padding: 4rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right top, rgb(170, 250, 246), rgb(101, 153, 177));
+
+}
+
+h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10%;
+}
+label,input{
+    margin: 2%;
+    color: white;
+}
+button{
+    margin-top: 10%;
+    margin-right: 15px;
+    width: 5rem;
+    height: 2rem;
+    border: 0px;
+    border-radius: 6px;
+    background:linear-gradient(to right top, rgb(0, 238, 255), rgb(3, 167, 243));
+    color: white;
+}
+
+.login a{
+    text-decoration: none;
+    background:linear-gradient(to right top, rgb(0, 238, 255), rgb(3, 167, 243));
+    padding: 7px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
